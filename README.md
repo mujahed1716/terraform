@@ -19,51 +19,6 @@ This repository is designed for:
 
 ```
 
-## 📁 Repository Structure
-
-```
-terraform-complete-guide/
-├── README.md
-│
-├── docs/
-│   ├── terraform-basics.md
-│   ├── terraform-advanced.md
-│   ├── terraform-best-practices.md
-│   ├── terraform-security.md
-│   └── terraform-interview-questions.md
-│
-├── labs/
-│   ├── lab-01-installation/
-│   ├── lab-02-first-ec2/
-│   ├── lab-03-variables-outputs/
-│   ├── lab-04-vpc/
-│   ├── lab-05-modules/
-│   ├── lab-06-remote-backend/
-│   ├── lab-07-workspaces/
-│   ├── lab-08-asg-alb/
-│   └── lab-09-production-architecture/
-│
-├── modules/
-│   ├── vpc/
-│   ├── ec2/
-│   ├── alb/
-│   ├── asg/
-│   ├── rds/
-│   └── security-group/
-│
-├── environments/
-│   ├── dev/
-│   ├── qa/
-│   └── prod/
-│
-├── scripts/
-│   ├── userdata.sh
-│   └── init-backend.sh
-│
-├── versions.tf
-└── .gitignore
-```
-
 ```
 
 ---
